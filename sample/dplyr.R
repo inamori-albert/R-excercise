@@ -1,5 +1,8 @@
 # dplyrのサンプル
-## 参考：http://qiita.com/matsuou1/items/e995da273e3108e2338e
+# data.frameに対して抽出(select, filter)、部分的変更(mutate)、要約(summarise)、ソート(arrange)などの処理を施すためのパッケージ
+# purrr や tidyr と一緒に使うとよいらしい
+## 参考1：https://heavywatal.github.io/rstats/dplyr.html
+## 参考2：http://qiita.com/matsuou1/items/e995da273e3108e2338e
 ## |SQL | dplyr | R | 説明 |
 ## |where | filter | subset | 行の絞り込み|
 ## |count , max ,min等 | summarise | aggregate | 集計する|
